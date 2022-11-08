@@ -1,0 +1,65 @@
+@media (min-width: 414px) {
+    #show-we {
+      background-image: url(../images/show-we.png);
+      background-repeat: no-repeat;
+      width: 414px;
+      height: 1108px;
+      margin-top: -46px;
+      justify-content: center;
+      z-index: 0;
+    }
+    .box-flex {
+        margin-top: 601px;
+        background-color: #DEA47C;
+        width: 358px;
+        height: 629px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 3;
+        border-radius: 8px;
+        .show-video {
+            background-color: #DEA47C;
+            width: 358px;
+            height: 419px;
+            border-radius: 6px;
+            position: relative;
+            justify-content: center;
+            .title-auric {
+                width: 100%;
+                text-align: center;
+                margin-top: 2px;
+                padding: 4px;
+                color: white;
+                font-size: 30px;
+                font-weight: bold;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.637);
+                position: absolute;
+              }
+        }
+        .paragraf-third-page {
+          width: 308px;
+          height: 69px;
+          padding-top: 12px;  
+          color: white;
+          font-size: 22px;
+          z-index: 3;
+          justify-content: center;
+          text-align: center;
+        }
+        .button-two {
+          width: 128px;
+          height: 40px;
+          padding: 2px;
+          margin: 20px;
+          background-image: linear-gradient(to right, #974a4a, #fc3737);
+          color: white;
+          font-size: 18px;
+          font-weight: 600;
+          align-items: center;
+          justify-content: center;
+          border-radius: 6px;
+          box-shadow: 2px 2px 5px rgba(37, 37, 37, 0.808);
+        }
+    }
+}

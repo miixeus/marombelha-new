@@ -1,0 +1,50 @@
+#depositions {
+    background-image: url(../images/depositions-background.png);
+    width: 414px;
+    height: 800px;
+    flex-direction: column;
+    border-bottom: 8px solid #FF0000;
+    .bee-line {
+        justify-content: center;
+        margin-top: -70px;
+        z-index: 1;
+    }
+    .line {
+        justify-content: center;
+        margin-top: -59px;
+    }
+    .title-depositions {
+        width: 414px;
+        margin-top: 87px;
+        color: white;
+        font-size: 37px;
+        font-weight: bold;
+        position: absolute;
+        justify-content: center;
+        text-align: center;
+        text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.637);
+    }
+    .flex-depositions {
+        margin-top: 180px;
+        width: 414px;
+        height: 797px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .button-two {
+        width: 128px;
+        height: 40px;
+        padding: 2px;
+        margin: 20px;
+        background-image: linear-gradient(to right, #974a4a, #fc3737);
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        box-shadow: 2px 2px 5px rgba(34, 34, 34, 0.808);
+      }
+
+}

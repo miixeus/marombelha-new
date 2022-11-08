@@ -1,0 +1,22 @@
+#products {
+    margin-top: -12px;
+    width: 414px;
+    height: 764px;
+    background-image: url(../images/products.png);
+    justify-content: flex-end;
+    display: flex;
+}
+.product-texts {
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 366px;
+    width: 207px;
+    height: 300px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    h4 {
+        padding: 15px;
+    }
+}

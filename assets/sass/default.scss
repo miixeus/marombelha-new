@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    
+}
+ div, article, aside, footer, header, main, nav, section, ul, ol, li, button, figure, picture, hr {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+button {
+    border: none;
+}

@@ -1,0 +1,67 @@
+@media (min-width: 414px) {
+    #background-two {
+        background-color: #1C1C1C;
+        width: 414px;
+        height: 1124px;
+        position: relative;
+    }
+    .title-api {
+        width: 100%;
+        margin-top: 77px;
+        color: white;
+        font-size: 47px;
+        font-weight: bold;
+        position: absolute;
+        justify-content: center;
+        text-align: center;
+        text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.637);
+        z-index: 3;
+    }
+    .polygon-one {
+        top: -15px;
+        right: 0px;
+        position: absolute;
+        z-index: 2;
+    }
+    .paragraf-second-page {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 2px;
+        top: 163px;
+        color: white;
+        text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.808);
+        font-size: 25px;
+        position: absolute;
+        z-index: 3;
+    }
+    .button {
+        top: 240px;
+        left: 143px;
+        width: 128px;
+        height: 40px;
+        background-image: linear-gradient(to right, #BD9414, #FFC100) ;
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        align-items: center;
+        justify-content: center;
+        border-radius: 6px;
+        box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.808);
+        position: absolute;
+
+    }
+    .img-api {
+        top: 300px;
+        left: 21px;
+        position: absolute;
+
+    }
+    .img-api-two {
+        top: 775px;
+        left: 21px;
+        position: absolute;
+        z-index: 2;
+    }
+
+}

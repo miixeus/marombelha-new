@@ -1,0 +1,28 @@
+@media (min-width: 414px) {
+    #background-presantation {
+        background-color: #1C1C1C;
+        width: 414px;
+        height: 856px;
+        position: relative;
+    }
+    .title-two {
+        margin: 20px 15px;
+        color: white;
+        font-size: 47px;
+        font-weight: bold;
+        position: absolute;
+        justify-content: center;
+        text-align: center;
+        text-shadow: 1px 1px 1px gray;
+        z-index: 1;
+    }
+    .polygon {
+        top: 225px;
+        left: -54px;
+        position: absolute;
+    }
+    .two-peoples {
+        margin-top: 335px;
+        z-index: 2;
+    }
+}
