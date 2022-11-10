@@ -36,6 +36,7 @@
         z-index: 3;
     }
     .button {
+        display: flex;
         top: 240px;
         left: 143px;
         width: 128px;
@@ -45,11 +46,15 @@
         font-size: 18px;
         font-weight: 600;
         align-items: center;
+        text-align: center;
         justify-content: center;
         border-radius: 6px;
         box-shadow: 3px 2px 3px rgba(0, 0, 0, 0.808);
         position: absolute;
-
+        cursor: pointer;
+    }
+    .button:hover {
+        background-image: linear-gradient(to right, #a88312, #ca9800) ;
     }
     .img-api {
         top: 300px;
