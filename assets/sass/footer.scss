@@ -1,6 +1,6 @@
 #footer {
-    background-image: url(../images/footer.png);
-    width: 414px;
+    background-image: url(../images/footer-larg.png);
+    background-size: cover;
     height: 978px;
     border-top: 8px solid #35352D;
     flex-direction: column;
@@ -18,6 +18,12 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        .inst {
+            transition: 0.2s;
+        }
+        .face {
+            transition: 0.2s;
+        }
         .title-links {
             width: 162px;
             height: 64px;
@@ -28,26 +34,38 @@
 
         }
     }
+    .inst:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    .face:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
     .logo-footer {
         margin-top: 200px;
     }
     .email {
         width: 357px;
         height: 37px;
-        color: white;
         font-size: 18px;
         font-weight: 400;
         align-items: center;
         justify-content: center;
+        p {
+            color: white;
+        }
     }
     .adress {
         width: 362px;
         height: 52px;
-        color: white;
         font-size: 14px;
         font-weight: 300;
         align-items: center;
         text-align: center;
+        p {
+            color: white;
+        }
     }
     .copyright {
         width: 362px;
@@ -58,4 +76,17 @@
         align-items: center;
         justify-content: center;
     }
+}
+@media (min-width: 820px) {
+    #footer {
+        .title-footer {
+            margin-top: 50px;
+            color: white;
+            width: 614px;
+            font-size: 45px;
+            font-weight: bold;
+            text-align: center;
+        }
+    }
+
 }

@@ -24,25 +24,35 @@
     <title>MAROMBELHA TERAPIAS</title>
 </head>
 <body>
-    <header id="header">    
-        <picture id="logo">
-            <a href="#">
-                <source srcset="assets/images/logo-footer.png" media="(min-width: 820px)"/>
-                <source srcset="assets/images/bee-line.png" media="(min-width: 414px)"/>
-                <img src="assets/images/bee-line.png" alt="imagem logo"/>
-            </a>
-        </picture>
-        <div id="background">
+    <header id="header">
+        <a href="index.html" id="logo">
+            <img src="assets/images/Bee_finish.svg" alt="Marombelha Terapias" style="width: 120px; height: 90px"/>
+          </a>
+        <nav id="nav">
+          <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+            <span id="hamburger"></span>
+          </button>
+          <ul id="menu" role="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#apiterapia">Apiterapia</a></li>
+            <li><a href="#auriculoterapia">Auriculoterapia</a></li>
+            <li><a href="#witnesses">Depoimentos</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
+        </nav>    
+    </header>
+        <section id="background">
             <picture>
                 <source srcset="assets/images/background993.png" media="(min-width: 820px)"/>
-                <source srcset="assets/images/background-414.png" media="(min-width: 520px)"/>
+                <source srcset="assets/images/background-520.png" media="(min-width: 520px)"/>
                 <source srcset="assets/images/background-414.png" media="(min-width: 414px)"/>
-                <img src="assets/images/background-414.png" alt="Imagem fundo Marombelha"/>
+                <img src="assets/images/background-414.png" alt="Imagem fundo Marombelha" width="920px"/>
             </picture>
-        </div>
-        <h1 class="title">MAROMBELHA TERAPIAS</h1>
+            <h1 class="title">MAROMBELHA TERAPIAS</h1>
         <p class="paragraf-first-page">Equipe especializada em Apiterapia e Auriculoterapia</p>
-    </header>
+        </section>
+        
+    
     <!--Whatsapp-button-->
     <section>
         <div class="whatsapp">
@@ -57,14 +67,16 @@
     <section id="background-presantation">
         
             <div class="title-two">
-                <h2>Somos especialistas em terapias alternativas</h2>
+                <div class="text-block">
+                    <h2>Somos <span>ESPECIALISTAS</span> em terapias alternativas</h2>
+                </div>
             </div>
             <div class="background-black">
-                <picture>
-                    <!--<source srcset="assets/images/rectangle1.png" media="(min-width: 820px)"/>-->
+                <!--<picture>
+                    <source srcset="assets/images/rectangle1.png" media="(min-width: 820px)"/>
                     <source srcset="assets/images/rectangle1-414.png" media="(min-width: 414px)"/>
                     <img src="assets/images/rectangle1-414.png" alt="fundo preto">
-                </picture>
+                </picture>-->
             </div>
             <div class="polygon">
                 <picture>
@@ -81,36 +93,43 @@
         
     </section>
     <section id="background-two">
-        <div>
-            <h2 class="title-api">APITERAPIA</h2>
-            <p class="paragraf-second-page">Tratamento rápido, eficiente e com resultados incríveis.</p>
-            <button type="button" ><a href="" class="button">
-                SAIBA MAIS
-            </a></button>
+        <div class="box">
             <picture class="polygon-one">
-                <source srcset="images/polygon-2.png" media="(min-width; 414px)"/>
-                <img src="assets/images/polygon-2.png" alt="hexágono" width="204px" height="248px">
+                <source srcset="assets/images/polygon-1-557.png" media="(min-width: 820px)"/>
+                <source srcset="assets/images/polygon-2.png" media="(min-width: 414px)"/>
+                <img src="assets/images/polygon-2.png" alt="hexágono"/>
             </picture>
-                <picture class="img-api">
-                    <source srcset="images/api-image-one-p.png" media="(min-width; 414px)"/>
-                    <img src="assets/images/api-image-one-p.png" alt="modelos Marombelha" width="371px" height="430px">
-                </picture>
-                <picture class="img-api-two">
-                    <source srcset="images/api-img-two-p.png" media="(min-width; 414px)"/>
-                    <img src="assets/images/api-img-two-p.png" alt="modelos Marombelha" width="371px" height="430px">
-                </picture>
-
+            <div class="div-flex">
+                <h2 class="title-api">APITERAPIA</h2>
+                <p class="paragraf-second-page">Tratamento rápido, eficiente e com resultados incríveis.</p>
+                <a href="https://api.whatsapp.com/send?phone=5519988365263&text=Olá,%20estou%20interessado%20em%20saber%20mais%20informações%20sobre%20as%20terapias." target="_blank" class="button">
+                    Converse conosco
+                </a>
+                <div class="row">
+                    <div class="row-up">
+                        <picture class="img-api">
+                            <source srcset="assets/images/api-image-one-p.png" media="(min-width: 414px)"/>
+                            <img src="assets/images/api-image-one-p.png" alt="modelos Marombelha" width="371px" height="430px">
+                        </picture>
+                        <div>
+                        <p class="content">Um dos componentes do veneno da abelha, a Melitina, é 200 vezes superior ao mais potente corticoide sintético.</p>
+                        </div>
+                    </div>
+                    <div class="row-up-two">
+                        <picture class="img-api-two">
+                            <source srcset="assets/images/api-img-two-p.png" media="(min-width: 414px)"/>
+                            <img src="assets/images/api-img-two-p.png" alt="modelos Marombelha" width="371px" height="430px">
+                        </picture>
+                        <div>
+                        <p class="content">O tratamento com <span> Apiterapia</span> é indicado para diversos tipos de doenças.<br> É só uma picadinha!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
     </section>
     <section id="background-three">
-        <div>
-            <picture class="background-honey">
-                <source srcset="assets/images/background-honey.png" media="(min-width: 820px)"/>
-                <source srcset="assets/images/background-honey-botton.png" media="(min-width: 414px)"/>
-                <img src="assets/images/background-honey-botton.png" alt="colméia">
-            </picture>
-        </div>
         <picture class="polygon-two">
             <source srcset="assets/images/polygon-3.svg" media="(min-width: 414px)"/>
             <img src="assets/images/polygon-3.svg" alt="hexágono" width="281px" height="274px">
@@ -118,16 +137,27 @@
         <div class="div-flex">
             <h2 class="title-auric">AURICULOTERAPIA</h2>
             <p class="paragraf-third-page">Equipamentos de última geração.</p>
-            <button type="button" class="button-two">SAIBA MAIS</button>
-            
-                <picture class="img-arc">
-                    <source srcset="images/img-arc-one.png" media="(min-width; 414px)"/>
-                    <img src="assets/images/img-arc-one.png" alt="modelos Marombelha" width="371px" height="338px">
-                </picture>
-                <picture class="img-arc-two">
-                    <source srcset="images/img-arc-two.png" media="(min-width; 414px)"/>
-                    <img src="assets/images/img-arc-two.png" alt="modelos Marombelha" width="371px" height="338px">
-                </picture>
+            <a href="https://api.whatsapp.com/send?phone=5519988365263&text=Olá,%20estou%20interessado%20em%20saber%20mais%20informações%20sobre%20as%20terapias." target="_blank" class="button-two">SAIBA MAIS</a>
+            <div class="row-a">
+                <div class="row-down">
+                    <picture class="img-arc">
+                        <source srcset="images/img-arc-one.png" media="(min-width; 414px)"/>
+                        <img src="assets/images/img-arc-one.png" alt="modelos Marombelha" width="371px" height="338px">
+                    </picture>
+                    <div>
+                        <p class="content">Um dos componentes do veneno da abelha, a Melitina, é 200 vezes superior ao mais potente corticoide sintético.</p>
+                    </div>
+                </div>
+                <div class="row-down-two">
+                    <picture class="img-arc-two">
+                        <source srcset="images/img-arc-two.png" media="(min-width; 414px)"/>
+                        <img src="assets/images/img-arc-two.png" alt="modelos Marombelha" width="371px" height="338px">
+                    </picture>
+                    <div>
+                        <p class="content">Um dos componentes do veneno da abelha, a Melitina, é 200 vezes superior ao mais potente corticoide sintético.</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
@@ -136,15 +166,16 @@
         <div class="box-flex">
             <div class="show-video">
                 <h2 class="title-auric">Queremos cuidar de você!</h2>
-                <video src="assets/images/marombelha.mp4" controls width="308px" height="419px"></video>
+                <video src="assets/images/marombelha.mp4" muted autoplay width="308px" height="419px"></video>
             </div>
             <p class="paragraf-third-page">Entre em contato conosco pelo whatsapp.</p>
-            <button type="button" class="button-two">CLIQUE AQUI</button>
+            <a href="https://api.whatsapp.com/send?phone=5519988365263&text=Olá,%20estou%20interessado%20em%20saber%20mais%20informações%20sobre%20as%20terapias."
+            target="_blank" class="button-two">CLIQUE AQUI</a>
         </div>
     </section>
-    <section id="interline">
+    <section id="interline">-
         <div class="text-product">
-            <h3>Conheça nossos produtos:</h3>
+            <h3>Temos uma linha completa de produtos para seu tratamento:</h3>
         </div>
     </section>
     <section id="products">
@@ -157,57 +188,63 @@
      </section>
      <section id="depositions">
         <picture class="bee-line">
-            <source srcset="images/bee-line.png" media="(min-width; 414px)"/>
+            <source srcset="assets/images/bee-line.png" media="(min-width: 414px)"/>
             <img src="assets/images/bee-line.png" alt="hexágono" width="89px" height="127px">
         </picture>
-        <picture class="line">
-            <source srcset="images/line.png" media="(min-width; 414px)"/>
-            <img src="assets/images/line.png" alt="hexágono" width="308px" height="4px">
-        </picture>
-        <h2 class="title-depositions">DEPOIMENTOS:</h2>
+        <h2 class="title-depositions">Veja o que nossos clientes estão falando:</h2>
         <div class="flex-depositions">
             <picture>
-                <source srcset="images/depositions.png" media="(min-width; 414px)"/>
-                <img src="assets/images/depositions.png" alt="depoimentos" width="365px" height="94px">
+                <source srcset="assets/images/depositions.png" media="(min-width: 414px)"/>
+                <img src="assets/images/depositions.png" alt="depoimentos" width="365px" height="94px"/>
             </picture>
             <picture>
-                <source srcset="images/depositions.png" media="(min-width; 414px)"/>
-                <img src="assets/images/depositions.png" alt="depoimentos" width="365px" height="94px">
+                <source srcset="assets/images/depositions.png" media="(min-width: 414px)"/>
+                <img src="assets/images/depositions.png" alt="depoimentos" width="365px" height="94px"/>
             </picture>
             <picture>
-                <source srcset="images/depositions.png" media="(min-width; 414px)"/>
-                <img src="assets/images/depositions.png" alt="depoimentos" width="365px" height="94px">
+                <source srcset="assets/images/depositions.png" media="(min-width: 414px)"/>
+                <img src="assets/images/depositions.png" alt="depoimentos" width="365px" height="94px"/>
             </picture>
-            <button type="button" class="button-two">Fale conosco</button>
+            <a href="https://api.whatsapp.com/send?phone=5519988365263&text=Olá,%20estou%20interessado%20em%20saber%20mais%20informações%20sobre%20as%20terapias." target="_blank" class="button-two">Fale conosco</a>
         </div>
     </section>
     <footer id="footer">
         <h4 class="title-footer">Siga nossas redes sociais</h4>
         <div class="links">
-            <a href="#">
-                <img src="assets/images/instagram.png" alt="logo do instagram" width="71px" height="71px">
+            <a href="https://www.instagram.com/marombelha/" target="_blank" class="inst">
+                <img src="assets/images/instagram.png" alt="logo do instagram" width="71px" height="71px"/>
             </a>
             <h5 class="title-links">Instagram</h5>
-            <a href="#">
-                <img src="assets/images/facebook.png" alt="logo do facebook" width="71px" height="71px"> 
+            <a href="https://www.facebook.com/profile.php?id=100070235134884" target="_blank" class="face">
+                <img src="assets/images/facebook.png" alt="logo do facebook" width="71px" height="71px"/> 
             </a>
             <h5 class="title-links">Facebook</h5>
         </div>
         <picture class="logo-footer">
             <source srcset="images/logo-footer.png" media="(min-width; 414px)"/>
-            <img src="assets/images/logo-footer.png" alt="logo rodapé" width="357px" height="108px">
+            <img src="assets/images/logo-footer.png" alt="logo rodapé" width="357px" height="108px"/>
         </picture>
         <div class="email">
-            <p>Email: carolvitorino44@gmail.com</p>
+            <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJqXPMvLwlHfmtFhPqMhnGVcMLLpgtcWWfLBGfThtnWQPKjSRjtJlqCcLVHwbLgnzXbRblB" target="_blank">
+                <p>Email: carolvitorino44@gmail.com</p>
+            </a>
+            
         </div>
         <div class="adress">
-            <p>Endereço: Avenida Aristóteles Costa, 122 - Jardim dos Calegaris Paulínia - SP | CEP:13140-082 | Brasil</p>
+            <a href="https://www.google.com.br/maps/place/Av.+Arist%C3%B3teles+Costa,+122+-+Jardim+dos+Calegaris,+Paul%C3%ADnia+-+SP,+13140-082/@-22.7594902,-47.1576986,17z/data=!4m5!3m4!1s0x94c895687bcb3ad9:0x2f6dd52ee7b3c215!8m2!3d-22.7593554!4d-47.1576955" target="_blank">
+                <p>Endereço: Avenida Aristóteles Costa, 122 - Jardim dos Calegaris Paulínia - SP | CEP:13140-082 | Brasil</p>
+            </a>
+            
         </div>
         <div class="copyright">
-            <p>&copy;2022 | by mixeus. All Rights Reserved.</p>
+            <p>&copy;2022 | by Tunaweb. All Rights Reserved.</p>
         </div>
         
 
     </footer>
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 </body>
 </html>
