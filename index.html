@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/"/>
     <link rel="apple-touch-icon" sizes="60x60" href="assets/favicon/apple-icon-60x60.png"/>
     <link rel="apple-touch-icon" sizes="72x72" href="assets/favicon/apple-icon-72x72.png"/>
@@ -25,7 +26,7 @@
 </head>
 <body>
     <header id="header">
-        <a href="index.html" id="logo">
+        <a href="index.html" id="logo" class="bounce-in-top">
             <img src="assets/images/Bee_finish.svg" alt="Marombelha Terapias" style="width: 120px; height: 90px"/>
           </a>
         <nav id="nav">
@@ -34,21 +35,18 @@
           </button>
           <ul id="menu" role="menu">
             <li><a href="#">Home</a></li>
-            <li><a href="#apiterapia">Apiterapia</a></li>
-            <li><a href="#auriculoterapia">Auriculoterapia</a></li>
-            <li><a href="#witnesses">Depoimentos</a></li>
+            <li><a href="#background-two">Apiterapia</a></li>
+            <li><a href="#background-three">Auriculoterapia</a></li>
+            <li><a href="#depositions">Depoimentos</a></li>
             <li><a href="#footer">Contato</a></li>
           </ul>
         </nav>    
     </header>
-        <section id="background">
+        <section id="background" class="fade-in-bottom">
             <picture>
-                <source srcset="assets/images/background993.png" media="(min-width: 820px)"/>
-                <source srcset="assets/images/background-520.png" media="(min-width: 520px)"/>
-                <source srcset="assets/images/background-414.png" media="(min-width: 414px)"/>
-                <img src="assets/images/background-414.png" alt="Imagem fundo Marombelha" width="920px"/>
+                <img src="assets/images/background993.png" alt="Imagem fundo Marombelha"/>
             </picture>
-            <h1 class="title">MAROMBELHA TERAPIAS</h1>
+            <h1 class="title fade-in-bottom-two">MAROMBELHA TERAPIAS</h1>
         <p class="paragraf-first-page">Equipe especializada em Apiterapia e Auriculoterapia</p>
         </section>
         
@@ -64,19 +62,12 @@
           </div>
     </section>
 
-    <section id="background-presantation">
+    <section id="background-presantation" data-aos="fade-up">
         
             <div class="title-two">
                 <div class="text-block">
                     <h2>Somos <span>ESPECIALISTAS</span> em terapias alternativas</h2>
                 </div>
-            </div>
-            <div class="background-black">
-                <!--<picture>
-                    <source srcset="assets/images/rectangle1.png" media="(min-width: 820px)"/>
-                    <source srcset="assets/images/rectangle1-414.png" media="(min-width: 414px)"/>
-                    <img src="assets/images/rectangle1-414.png" alt="fundo preto">
-                </picture>-->
             </div>
             <div class="polygon">
                 <picture>
@@ -85,7 +76,7 @@
                     <img src="assets/images/polygon-1.png" alt="hexágono">
                 </picture>
             </div>
-            <picture class="two-peoples">
+            <picture class="two-peoples fade-in-bottom-two" data-aos="fade-left">
                 <source srcset="assets/images/two-sem-fundo-2.png" media="(min-width: 820px)"/>
                 <source srcset="assets/images/2-sem-fundo.png" media="(min-width: 414px)"/>
                 <img src="assets/images/2-sem-fundo.png" alt="modelos Marombelha"/>
@@ -94,19 +85,19 @@
     </section>
     <section id="background-two">
         <div class="box">
-            <picture class="polygon-one">
+            <picture class="polygon-one" data-aos="fade-right">
                 <source srcset="assets/images/polygon-1-557.png" media="(min-width: 820px)"/>
                 <source srcset="assets/images/polygon-2.png" media="(min-width: 414px)"/>
                 <img src="assets/images/polygon-2.png" alt="hexágono"/>
             </picture>
             <div class="div-flex">
-                <h2 class="title-api">APITERAPIA</h2>
+                <h2 class="title-api" data-aos="fade-up">APITERAPIA</h2>
                 <p class="paragraf-second-page">Tratamento rápido, eficiente e com resultados incríveis.</p>
                 <a href="https://api.whatsapp.com/send?phone=5519988365263&text=Olá,%20estou%20interessado%20em%20saber%20mais%20informações%20sobre%20as%20terapias." target="_blank" class="button">
                     Converse conosco
                 </a>
                 <div class="row">
-                    <div class="row-up">
+                    <div class="row-up" data-aos="fade-up">
                         <picture class="img-api">
                             <source srcset="assets/images/api-image-one-p.png" media="(min-width: 414px)"/>
                             <img src="assets/images/api-image-one-p.png" alt="modelos Marombelha" width="371px" height="430px">
@@ -115,13 +106,13 @@
                         <p class="content">Um dos componentes do veneno da abelha, a Melitina, é 200 vezes superior ao mais potente corticoide sintético.</p>
                         </div>
                     </div>
-                    <div class="row-up-two">
+                    <div class="row-up-two" data-aos="fade-up">
                         <picture class="img-api-two">
                             <source srcset="assets/images/api-img-two-p.png" media="(min-width: 414px)"/>
                             <img src="assets/images/api-img-two-p.png" alt="modelos Marombelha" width="371px" height="430px">
                         </picture>
                         <div>
-                        <p class="content">O tratamento com <span> Apiterapia</span> é indicado para diversos tipos de doenças.<br> É só uma picadinha!</p>
+                        <p class="content" >O tratamento com <span> Apiterapia</span> é indicado para diversos tipos de doenças.<br> É só uma picadinha!</p>
                         </div>
                     </div>
                 </div>
@@ -130,16 +121,16 @@
 
     </section>
     <section id="background-three">
-        <picture class="polygon-two">
+        <picture class="polygon-two" data-aos="fade-right">
             <source srcset="assets/images/polygon-3.svg" media="(min-width: 414px)"/>
             <img src="assets/images/polygon-3.svg" alt="hexágono" width="281px" height="274px">
         </picture>
         <div class="div-flex">
-            <h2 class="title-auric">AURICULOTERAPIA</h2>
-            <p class="paragraf-third-page">Equipamentos de última geração.</p>
+            <h2 class="title-auric" data-aos="fade-up">AURICULOTERAPIA</h2>
+            <p class="paragraf-third-page" data-aos="fade-down">Equipamentos de última geração.</p>
             <a href="https://api.whatsapp.com/send?phone=5519988365263&text=Olá,%20estou%20interessado%20em%20saber%20mais%20informações%20sobre%20as%20terapias." target="_blank" class="button-two">SAIBA MAIS</a>
-            <div class="row-a">
-                <div class="row-down">
+            <div class="row-a" data-aos="fade-up">
+                <div class="row-down" >
                     <picture class="img-arc">
                         <source srcset="images/img-arc-one.png" media="(min-width; 414px)"/>
                         <img src="assets/images/img-arc-one.png" alt="modelos Marombelha" width="371px" height="338px">
@@ -163,8 +154,9 @@
 
     </section>
     <section id="show-we">
-        <div class="box-flex">
-            <div class="show-video">
+            <div class="show-video" data-aos="fade-up">
+                <div class="box-flex">
+            <div class="show-video" >
                 <h2 class="title-auric">Queremos cuidar de você!</h2>
                 <video src="assets/images/marombelha.mp4" muted autoplay width="308px" height="419px"></video>
             </div>
@@ -174,34 +166,34 @@
         </div>
     </section>
     <section id="interline">-
-        <div class="text-product">
+        <div class="text-product" data-aos="fade-up">
             <h3>Temos uma linha completa de produtos para seu tratamento:</h3>
         </div>
     </section>
     <section id="products">
         <div class="product-texts">
-            <h4>Mel</h4>
-            <h4>Pólen</h4>
-            <h4>Própolis</h4>
-            <h4>Geléia Real</h4>
+            <h4 data-aos="fade-right">Mel</h4>
+            <h4 data-aos="fade-right">Pólen</h4>
+            <h4 data-aos="fade-right">Própolis</h4>
+            <h4 data-aos="fade-right">Geléia Real</h4>
         </div>
      </section>
      <section id="depositions">
-        <picture class="bee-line">
+        <picture class="bee-line rotate-scale-up" data-aos="fade-up">
             <source srcset="assets/images/bee-line.png" media="(min-width: 414px)"/>
             <img src="assets/images/bee-line.png" alt="hexágono" width="89px" height="127px">
         </picture>
-        <h2 class="title-depositions">Veja o que nossos clientes estão falando:</h2>
+        <h2 class="title-depositions" data-aos="fade-up">Veja o que nossos clientes estão falando:</h2>
         <div class="flex-depositions">
-            <picture>
+            <picture data-aos="fade-up">
                 <source srcset="assets/images/depositions.png" media="(min-width: 414px)"/>
                 <img src="assets/images/depositions.png" alt="depoimentos" width="365px" height="94px"/>
             </picture>
-            <picture>
+            <picture data-aos="fade-up">
                 <source srcset="assets/images/depositions.png" media="(min-width: 414px)"/>
                 <img src="assets/images/depositions.png" alt="depoimentos" width="365px" height="94px"/>
             </picture>
-            <picture>
+            <picture data-aos="fade-up">
                 <source srcset="assets/images/depositions.png" media="(min-width: 414px)"/>
                 <img src="assets/images/depositions.png" alt="depoimentos" width="365px" height="94px"/>
             </picture>
@@ -210,7 +202,7 @@
     </section>
     <footer id="footer">
         <h4 class="title-footer">Siga nossas redes sociais</h4>
-        <div class="links">
+        <div class="links" data-aos="fade-up">
             <a href="https://www.instagram.com/marombelha/" target="_blank" class="inst">
                 <img src="assets/images/instagram.png" alt="logo do instagram" width="71px" height="71px"/>
             </a>
@@ -224,19 +216,19 @@
             <source srcset="images/logo-footer.png" media="(min-width; 414px)"/>
             <img src="assets/images/logo-footer.png" alt="logo rodapé" width="357px" height="108px"/>
         </picture>
-        <div class="email">
+        <div class="email" data-aos="fade-up">
             <a href="https://mail.google.com/mail/u/0/?ogbl#inbox?compose=CllgCJqXPMvLwlHfmtFhPqMhnGVcMLLpgtcWWfLBGfThtnWQPKjSRjtJlqCcLVHwbLgnzXbRblB" target="_blank">
                 <p>Email: carolvitorino44@gmail.com</p>
             </a>
             
         </div>
-        <div class="adress">
+        <div class="adress" data-aos="fade-up">
             <a href="https://www.google.com.br/maps/place/Av.+Arist%C3%B3teles+Costa,+122+-+Jardim+dos+Calegaris,+Paul%C3%ADnia+-+SP,+13140-082/@-22.7594902,-47.1576986,17z/data=!4m5!3m4!1s0x94c895687bcb3ad9:0x2f6dd52ee7b3c215!8m2!3d-22.7593554!4d-47.1576955" target="_blank">
                 <p>Endereço: Avenida Aristóteles Costa, 122 - Jardim dos Calegaris Paulínia - SP | CEP:13140-082 | Brasil</p>
             </a>
             
         </div>
-        <div class="copyright">
+        <div class="copyright" >
             <p>&copy;2022 | by Tunaweb. All Rights Reserved.</p>
         </div>
         
@@ -246,5 +238,12 @@
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
+
 </body>
 </html>
