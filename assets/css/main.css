@@ -17,7 +17,7 @@ a {
 }
 
 body {
-  min-width: 320px;
+  min-width: 380px;
   margin: 0;
   padding: 0;
 }
@@ -113,11 +113,11 @@ button {
   text-shadow: 1px 7px 14px black;
 }
 #background .paragraf-first-page {
-  width: 300px;
+  width: 200px;
   justify-content: center;
   align-items: center;
   text-align: center;
-  top: 250px;
+  top: 200px;
   color: white;
   font-size: 20px;
   position: absolute;
@@ -1135,13 +1135,13 @@ button {
   max-width: 1580px;
   width: 100%;
   height: 1108px;
-  margin-top: -46px;
+  margin-top: -45px;
   justify-content: center;
   z-index: 0;
 }
 
 .box-flex {
-  margin-top: 601px;
+  margin-top: 401px;
   background-color: #DEA47C;
   width: 358px;
   height: 629px;
@@ -1210,8 +1210,8 @@ button {
 
 #interline {
   width: 100%;
-  height: 282px;
-  background-color: #0D1114;
+  height: 420px;
+  background-image: linear-gradient(to right, #050505, #0D1114);
   justify-content: center;
 }
 
@@ -1219,7 +1219,7 @@ button {
   color: white;
   font-size: 19px;
   font-weight: 400;
-  margin-top: 243px;
+  margin-top: 13px;
   background-image: linear-gradient(to right, #996423, #D19960);
   width: 358px;
   height: 103px;
@@ -1227,14 +1227,15 @@ button {
   justify-content: center;
   text-align: center;
   border-radius: 8px;
+  position: absolute;
 }
 
 #products {
   color: black;
-  margin-top: -45px;
+  margin-top: -400px;
   width: 100%;
   height: 764px;
-  background-image: url(../images/products-larg.png);
+  background-image: url(../images/products-larg-no-back.png);
   background-size: cover;
   background-position: bottom;
   justify-content: flex-end;

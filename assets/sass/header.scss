@@ -9,7 +9,7 @@
   #header #menu a:hover {
     width: 100%;
     color: #facc00;
-    transition: all .1s;
+    transition: all 0.1s;
   }
   
   #header {
@@ -78,11 +78,11 @@
             text-shadow: 1px 7px 14px black;
         }
         .paragraf-first-page {
-            width: 300px;
+            width: 200px;
             justify-content: center;
             align-items: center;
             text-align: center;
-            top: 250px;
+            top: 200px;
             color: white;
             font-size: 20px;
             position: absolute;
