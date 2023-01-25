@@ -16,4 +16,7 @@ function toggleMenu(event) {
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
 
+let currentYear = new Date().getFullYear();
+let footerYear = document.getElementById("footer-year");
+footerYear.innerHTML = currentYear;
 
