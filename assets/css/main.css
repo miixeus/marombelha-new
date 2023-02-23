@@ -20,6 +20,7 @@ body {
   min-width: 380px;
   margin: 0;
   padding: 0;
+  background-image: linear-gradient(to bottom, #272727, #303030);
 }
 
 button {
@@ -27,7 +28,7 @@ button {
 }
 
 #header a {
-  color: rgb(0, 0, 0);
+  color: #facc00;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 400;
@@ -36,11 +37,13 @@ button {
 
 #header #menu a:hover {
   width: 100%;
-  color: #facc00;
+  color: #cc5d1d;
   transition: all 0.1s;
 }
 
 #header {
+  background-image: linear-gradient(45deg, rgb(44, 44, 44), rgb(27, 27, 27));
+  box-shadow: 1px 1px 10px rgb(134, 134, 134);
   display: flex;
   min-width: 320px;
   width: 100%;
@@ -90,7 +93,7 @@ button {
 }
 
 #background {
-  background-color: #f8f8f8;
+  background-image: linear-gradient(to top, rgb(44, 44, 44), rgb(27, 27, 27));
   width: 100%;
   height: 60vh;
   justify-content: center;
@@ -174,7 +177,7 @@ button {
     width: 100%;
     top: 110px;
     right: 0px;
-    background-image: linear-gradient(to bottom, #ffffff, rgba(255, 251, 0, 0.4941176471));
+    background-image: linear-gradient(to bottom, #272727, rgba(48, 48, 48, 0.4941176471));
     transition: 0.8s;
     z-index: 1000;
     height: 0px;
@@ -210,7 +213,7 @@ button {
   #hamburger {
     border-top: 2px solid;
     width: 20px;
-    color: #000000;
+    color: #ffc400;
   }
   #hamburger::after,
 #hamburger::before {
@@ -331,7 +334,7 @@ button {
   }
 }
 #background-presantation {
-  background-image: linear-gradient(180deg, #f8f8f8, white);
+  background-image: linear-gradient(to bottom, #272727, #303030);
   width: 100%;
   height: 556px;
   position: relative;
@@ -348,7 +351,7 @@ button {
 
 .title-two {
   margin: 10px 15px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 26px;
   font-weight: bold;
   position: absolute;
@@ -361,7 +364,7 @@ button {
 }
 .title-two span {
   color: #ff0000;
-  text-shadow: 1px 6px 10px rgb(161, 161, 161);
+  text-shadow: 1px 6px 10px rgb(0, 0, 0);
   font-weight: bold;
 }
 .title-two .text-block {
@@ -412,7 +415,6 @@ button {
 @media (min-width: 520px) {
   .title-two {
     margin: 5px 15px;
-    color: rgb(0, 0, 0);
     font-size: 29px;
     font-weight: bold;
     position: absolute;
@@ -420,10 +422,6 @@ button {
     text-align: center;
     text-shadow: 1px 1px 1px rgb(0, 0, 0);
     z-index: 1;
-  }
-  .title-two span {
-    color: #ff0000;
-    text-shadow: 1px 6px 10px rgb(161, 161, 161);
   }
   .two-peoples {
     width: 100px;
@@ -451,7 +449,6 @@ button {
     top: 15px;
     right: 15px;
     width: 300px;
-    color: rgb(22, 22, 22);
     font-weight: bold;
     text-align: center;
     justify-content: center;
@@ -465,7 +462,6 @@ button {
   .title-two h2 span {
     color: #ff0000;
     font-weight: bold;
-    text-shadow: 1px 6px 10px rgb(161, 161, 161);
   }
   .polygon {
     display: none;
@@ -492,7 +488,6 @@ button {
     position: absolute;
     width: 80%;
     height: 400px;
-    color: rgb(22, 22, 22);
     font-weight: bold;
     text-align: center;
     justify-content: center;
@@ -511,7 +506,6 @@ button {
   #background-presantation .title-two h2 span {
     color: #ff0000;
     font-weight: bold;
-    text-shadow: 1px 6px 10px rgb(161, 161, 161);
   }
   #background-presantation .polygon {
     display: none;
@@ -521,7 +515,7 @@ button {
   }
 }
 #background-two {
-  background-image: linear-gradient(45deg, #bd9414, #ffc100);
+  background-image: linear-gradient(45deg, #272726, #1d1c19);
   width: 100%;
   height: 1824px;
   position: relative;
@@ -565,7 +559,7 @@ button {
   text-align: center;
   padding: 2px;
   top: 73px;
-  color: #3b2409;
+  color: #c7863c;
   font-size: 25px;
   position: relative;
   z-index: 4;
@@ -617,11 +611,11 @@ button {
   height: auto;
   padding: 10px;
   font-size: 18px;
-  color: #3b2409;
+  color: #c7863c;
   justify-content: center;
   text-align: center;
   align-items: center;
-  border-left: 2px dashed #3b2409;
+  border-left: 2px dashed #c7863c;
 }
 #background-two .box .div-flex .row .row-up-two {
   flex-direction: column;
@@ -643,9 +637,9 @@ button {
   height: auto;
   flex-direction: column;
   display: flex;
-  color: #3b2409;
+  color: #c7863c;
   font-size: 18px;
-  border-left: 2px dashed #3b2409;
+  border-left: 2px dashed #c7863c;
   align-items: center;
   text-align: center;
 }
@@ -757,7 +751,6 @@ button {
     text-align: start;
     padding: 2px;
     top: 120px;
-    color: #3b2409;
     font-size: 42px;
     position: relative;
     z-index: 4;
@@ -784,11 +777,9 @@ button {
     height: 188px;
     padding: 10px;
     font-size: 28px;
-    color: #3b2409;
     justify-content: center;
     text-align: center;
     align-items: center;
-    border-left: 2px dashed #3b2409;
   }
   #background-two .box .div-flex .row .row-up-two {
     flex-direction: row-reverse;
@@ -803,10 +794,10 @@ button {
     flex-direction: column;
     width: 400px;
     height: 188px;
-    color: #3b2409;
+    color: #c7863c;
     font-size: 24px;
     border: none;
-    border-right: 2px dashed #3b2409;
+    border-right: 2px dashed #c7863c;
   }
   #background-two .box .div-flex .row .row-up-two .content .img-api-two {
     width: 400px;
@@ -849,11 +840,9 @@ button {
     text-align: start;
     padding: 12px;
     top: 120px;
-    color: #3b2409;
     font-size: 33px;
     position: relative;
     z-index: 4;
-    border-left: 2px dashed #3b2409;
   }
   #background-two .box .div-flex .button {
     width: 250px;
@@ -879,6 +868,7 @@ button {
     height: 253px;
     margin-left: 50px;
     padding: 10px;
+    margin-top: 82px;
     font-size: 30px;
   }
   #background-two .box .div-flex .row .row-up-two {
@@ -898,21 +888,21 @@ button {
     margin-right: 50px;
     padding: 10px;
     font-size: 30px;
-    color: #3b2409;
     border: none;
-    border-right: 2px dashed #3b2409;
+    border-right: 2px dashed #c7863c;
   }
 }
 #background-three {
-  background-image: linear-gradient(to top, #f85d5d, #000000);
+  background-image: linear-gradient(to top, #5b0000, #000000);
   box-shadow: 10px 10px 50px #000000;
   width: 100%;
   height: 1438px;
   position: relative;
-  border-bottom: 2px solid black;
+  box-shadow: 1px 8px 12px black;
 }
 #background-three .polygon-two {
   display: flex;
+  filter: grayscale(1);
   margin-top: -15px;
   margin-left: -80px;
   z-index: 2;
@@ -953,7 +943,7 @@ button {
   height: 40px;
   padding: 2px;
   margin: 20px;
-  background-image: linear-gradient(to right, #965252, #fa5151);
+  background-image: linear-gradient(to right, #d33434, #fa5151);
   color: white;
   font-size: 18px;
   font-weight: 600;
@@ -961,7 +951,7 @@ button {
   text-align: center;
   justify-content: center;
   border-radius: 6px;
-  box-shadow: 1px 9px 15px rgba(0, 0, 0, 0.808);
+  box-shadow: 1px 6px 10px rgb(0, 0, 0);
   transition: 0.2s;
 }
 #background-three .div-flex .button-two:hover {
@@ -1060,14 +1050,12 @@ button {
     height: 40px;
     padding: 2px;
     margin: 20px;
-    background-image: linear-gradient(to right, #965252, #fa5151);
     color: white;
     font-size: 18px;
     font-weight: 600;
     align-items: center;
     justify-content: center;
     border-radius: 6px;
-    box-shadow: 1px 9px 15px rgba(36, 36, 36, 0.808);
   }
   #background-three .div-flex .row-a {
     width: 100%;
@@ -1151,12 +1139,12 @@ button {
   z-index: 3;
   border-radius: 8px;
   transition: 0.3s;
+  box-shadow: 0px 8px 14px black;
 }
 .box-flex .show-video {
-  background-color: #DEA47C;
+  background-color: #303030;
   width: 358px;
   height: 419px;
-  border-radius: 6px;
   position: relative;
   justify-content: center;
 }
@@ -1335,19 +1323,20 @@ button {
 }
 #depositions .button-two {
   display: flex;
-  width: 128px;
-  height: 40px;
+  width: 282px;
+  height: 60px;
   padding: 2px;
   margin: 20px;
   background-image: linear-gradient(to right, #974a4a, #fc3737);
   color: white;
-  font-size: 18px;
+  font-size: 30px;
   font-weight: 600;
   align-items: center;
   justify-content: center;
   border-radius: 6px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.808);
   transition: 0.5s;
+  text-shadow: 1px 1px 1px black;
 }
 #depositions .button-two:hover {
   transform: scale(1.1);

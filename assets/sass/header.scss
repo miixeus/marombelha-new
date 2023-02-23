@@ -1,5 +1,5 @@
 #header a {
-    color: rgb(0, 0, 0);
+    color: #facc00;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 400;       
@@ -8,11 +8,13 @@
   
   #header #menu a:hover {
     width: 100%;
-    color: #facc00;
+    color: #cc5d1d;
     transition: all 0.1s;
   }
   
   #header {
+    background-image: linear-gradient(45deg, rgb(44, 44, 44), rgb(27, 27, 27));
+    box-shadow: 1px 1px 10px rgb(134, 134, 134);
     display: flex;
     min-width: 320px;
     width: 100%;
@@ -55,7 +57,7 @@
     display: none;
   }
   #background {
-    background-color: #f8f8f8;
+    background-image: linear-gradient(to top, rgb(44, 44, 44), rgb(27, 27, 27));
     width: 100%;
     height: 60vh;
     justify-content: center;
@@ -145,7 +147,7 @@
       width: 100%;
       top: 110px;
       right: 0px;
-      background-image: linear-gradient(to bottom, #ffffff, #fffb007e);
+      background-image: linear-gradient(to bottom, #272727, #3030307e);
       transition: 0.8s;
       z-index: 1000;
       height: 0px;
@@ -182,7 +184,7 @@
     #hamburger {
       border-top: 2px solid;
       width: 20px;
-      color: #000000;
+      color: #ffc400;
     }
     #hamburger::after,
     #hamburger::before {

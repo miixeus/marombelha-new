@@ -1,5 +1,5 @@
 #background-two {
-  background-image: linear-gradient(45deg, #bd9414, #ffc100);
+  background-image: linear-gradient(45deg, #272726, #1d1c19);
   width: 100%;
   height: 1824px;
   position: relative;
@@ -40,7 +40,7 @@
         text-align: center;
         padding: 2px;
         top: 73px;
-        color: #3b2409;
+        color: #c7863c;
         font-size: 25px;
         position: relative;
         z-index: 4;
@@ -90,11 +90,11 @@
             height: auto;
             padding: 10px;
             font-size: 18px;
-            color: #3b2409;
+            color: #c7863c;
             justify-content: center;
             text-align: center;
             align-items: center;
-            border-left: 2px dashed #3b2409;
+            border-left: 2px dashed #c7863c;
           }
         }
         .row-up-two {
@@ -116,9 +116,9 @@
             height: auto;
             flex-direction: column;
             display: flex;
-            color: #3b2409;
+            color: #c7863c;
             font-size: 18px;
-            border-left: 2px dashed #3b2409;
+            border-left: 2px dashed #c7863c;
             align-items: center;
             text-align: center;
             span {
@@ -238,7 +238,6 @@
           text-align: start;
           padding: 2px;
           top: 120px;
-          color: #3b2409;
           font-size: 42px;
           position: relative;
           z-index: 4;
@@ -263,11 +262,9 @@
                   height: 188px;
                   padding: 10px;
                   font-size: 28px;
-                  color: #3b2409;
                   justify-content: center;
                   text-align: center;
                   align-items: center;
-                  border-left: 2px dashed #3b2409;
                 }
               }
               .row-up-two{
@@ -282,10 +279,10 @@
                   flex-direction: column;
                   width: 400px;
                   height: 188px;
-                  color: #3b2409;
+                  color: #c7863c;
                   font-size: 24px;
                   border: none;
-                  border-right: 2px dashed #3b2409;
+                  border-right: 2px dashed #c7863c;
     
                   .img-api-two {
                     width: 400px;
@@ -334,11 +331,9 @@
           text-align: start;
           padding: 12px;
           top: 120px;
-          color: #3b2409;
           font-size: 33px;
           position: relative;
           z-index: 4;
-          border-left: 2px dashed #3b2409;
         }
         .button {
           width: 250px;
@@ -353,6 +348,7 @@
                 width: 100%;
                 height: 600px;
                 padding: 40px;
+                
                 .img-api {
                   img{ 
                     width: 500px;
@@ -364,6 +360,7 @@
                   height: 253px;
                   margin-left: 50px;
                   padding: 10px;
+                  margin-top: 82px;
                   font-size: 30px;
                 }
               }
@@ -385,9 +382,8 @@
                   margin-right: 50px;
                   padding: 10px;
                   font-size: 30px;
-                  color: #3b2409;
                   border: none;
-                  border-right: 2px dashed #3b2409;
+                  border-right: 2px dashed #c7863c;
               }
             }
           
