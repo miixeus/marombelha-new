@@ -1,0 +1,113 @@
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 8;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-image: linear-gradient(to right, #faf037, #fff658);
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 4% auto;
+    padding: 10px;
+    border-radius: .5rem;
+    box-shadow: 1px 20px 2px rgba(0, 0, 0, 0.155);
+    border: 1px solid #303030;
+    width: 80%;
+    h2 {
+        font-size: 10px;
+        padding: 1rem 0;
+    }
+    h3 {
+        font-size: 10px;
+        padding: 2rem 0;
+    }
+    p {
+        text-align: center;
+        font-size: 10px;
+        padding-left: 2.5rem .1rem;
+    }
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    padding-left: .2rem;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(253, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .modal {
+        display: none;
+
+        position: fixed;
+        z-index: 115897;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    
+    .modal-content {
+        background-image: linear-gradient(to right, #faf037, #fff658);
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        margin: 4% auto;
+        padding: 40px;
+        border-radius: .5rem;
+        box-shadow: 1px 20px 2px rgba(0, 0, 0, 0.155);
+        border: 1px solid #303030;
+        width: 80%;
+        h2 {
+            padding: 1rem;
+        }
+        h3 {
+            padding: 2rem;
+        }
+        p {
+            padding-left: 2.5rem;
+        }
+    }
+    
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    
+    .close:hover,
+    .close:focus {
+        color: rgb(253, 0, 0);
+        text-decoration: none;
+        cursor: pointer;
+    }
+}
