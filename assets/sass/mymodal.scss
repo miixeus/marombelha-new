@@ -1,4 +1,5 @@
 
+
 .modal {
     display: none;
     position: fixed;
@@ -9,10 +10,24 @@
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.5);
-}
+    .close {
+        color: #aaa;
+        float: right;
+        padding-left: .2rem;
+        font-size: 28px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: rgb(253, 0, 0);
+        text-decoration: none;
+        cursor: pointer;
+    }
 
 .modal-content {
-    background-image: linear-gradient(to right, #faf037, #fff658);
+    background-image: linear-gradient(to right, #010101, #0f0f0f);
     flex-direction: column;
     justify-content: start;
     align-items: center;
@@ -22,36 +37,52 @@
     box-shadow: 1px 20px 2px rgba(0, 0, 0, 0.155);
     border: 1px solid #303030;
     width: 80%;
-    h2 {
-        font-size: 10px;
-        padding: 1rem 0;
+    color: whitesmoke;
+    .row-modal {
+        flex-direction: row;
+        #seta {
+            justify-content: center;
+            color: white;
+            background-color: #0f0f0f01;
+            transition: transform 0.3s ease;
+            font-weight: 400;
+            font-size: 2rem;
+        }
+        .rotacionada {
+            transform: rotate(90deg);
+        }
+        h2 {
+            font-size: 10px;
+            padding: 3rem 0;
+        }
+
     }
+
+
     h3 {
+       
         font-size: 10px;
-        padding: 2rem 0;
+        padding: .5rem 0;
     }
     p {
+        border-bottom: 1px solid #303030;
         text-align: center;
         font-size: 10px;
         padding-left: 2.5rem .1rem;
     }
+
+    #texto {
+        display: none;
+        
+      }
+    #secao {
+        flex-direction: row;
+    }
 }
 
-.close {
-    color: #aaa;
-    float: right;
-    padding-left: .2rem;
-    font-size: 28px;
-    font-weight: bold;
-    cursor: pointer;
 }
 
-.close:hover,
-.close:focus {
-    color: rgb(253, 0, 0);
-    text-decoration: none;
-    cursor: pointer;
-}
+
 
 
 
@@ -85,6 +116,7 @@
         box-shadow: 1px 20px 2px rgba(0, 0, 0, 0.155);
         border: 1px solid #303030;
         width: 80%;
+        color: #010101;
         h2 {
             padding: 1rem;
         }

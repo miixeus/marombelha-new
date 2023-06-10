@@ -1656,9 +1656,22 @@ button {
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
 }
-
-.modal-content {
-  background-image: linear-gradient(to right, #faf037, #fff658);
+.modal .close {
+  color: #aaa;
+  float: right;
+  padding-left: 0.2rem;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.modal .close:hover,
+.modal .close:focus {
+  color: rgb(253, 0, 0);
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal .modal-content {
+  background-image: linear-gradient(to right, #010101, #0f0f0f);
   flex-direction: column;
   justify-content: start;
   align-items: center;
@@ -1668,35 +1681,41 @@ button {
   box-shadow: 1px 20px 2px rgba(0, 0, 0, 0.155);
   border: 1px solid #303030;
   width: 80%;
+  color: whitesmoke;
 }
-.modal-content h2 {
+.modal .modal-content .row-modal {
+  flex-direction: row;
+}
+.modal .modal-content .row-modal #seta {
+  justify-content: center;
+  color: white;
+  background-color: rgba(15, 15, 15, 0.0039215686);
+  transition: transform 0.3s ease;
+  font-weight: 400;
+  font-size: 2rem;
+}
+.modal .modal-content .row-modal .rotacionada {
+  transform: rotate(90deg);
+}
+.modal .modal-content .row-modal h2 {
   font-size: 10px;
-  padding: 1rem 0;
+  padding: 3rem 0;
 }
-.modal-content h3 {
+.modal .modal-content h3 {
   font-size: 10px;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
 }
-.modal-content p {
+.modal .modal-content p {
+  border-bottom: 1px solid #303030;
   text-align: center;
   font-size: 10px;
   padding-left: 2.5rem 0.1rem;
 }
-
-.close {
-  color: #aaa;
-  float: right;
-  padding-left: 0.2rem;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
+.modal .modal-content #texto {
+  display: none;
 }
-
-.close:hover,
-.close:focus {
-  color: rgb(253, 0, 0);
-  text-decoration: none;
-  cursor: pointer;
+.modal .modal-content #secao {
+  flex-direction: row;
 }
 
 @media (min-width: 768px) {
@@ -1722,6 +1741,7 @@ button {
     box-shadow: 1px 20px 2px rgba(0, 0, 0, 0.155);
     border: 1px solid #303030;
     width: 80%;
+    color: #010101;
   }
   .modal-content h2 {
     padding: 1rem;

@@ -42,3 +42,27 @@ document.getElementById("openModalBtn").addEventListener("click", function() {
   console.log("Botão clicado!");
   // Adicione aqui o código para abrir o pop-up ou realizar qualquer outra ação desejada
 });
+
+
+//start conteúdo escondido//
+
+var textoVisivel = false; // Flag para rastrear a visibilidade do texto
+
+// Função para alternar a visibilidade do texto e a rotação da seta
+function alternarTexto() {
+  var elementoTexto = document.getElementById("texto");
+  var elementoSeta = document.getElementById("seta");
+  
+  if (textoVisivel) {
+    elementoTexto.style.display = "none";
+    elementoSeta.classList.remove("rotacionada");
+    textoVisivel = false;
+  } else {
+    elementoTexto.style.display = "block";
+    elementoSeta.classList.add("rotacionada");
+    textoVisivel = true;
+  }
+}
+
+// Adiciona o manipulador de eventos ao botão
+document.getElementById("seta").addEventListener("click", alternarTexto);
