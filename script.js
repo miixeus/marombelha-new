@@ -64,5 +64,4 @@ function alternarTexto() {
   }
 }
 
-// Adiciona o manipulador de eventos ao botão
-document.getElementById("seta").addEventListener("click", alternarTexto);
+

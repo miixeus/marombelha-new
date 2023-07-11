@@ -1,9 +1,10 @@
 #products {
-    color: black;
+    color: rgb(0, 0, 0);
     margin-top: -420px;
     width: 100%;
     height: 764px;
-    background-image: url(../images/products-larg-no-back.png);
+    background-color: black;
+    background-image: url(../images/products-larg-no-back1.png);
     background-size: cover;
     background-position: bottom;
     justify-content: flex-end;
@@ -21,5 +22,13 @@
     justify-content: flex-start;
     h4 {
         padding: 15px;
+    }
+}
+@media (min-width: 820px) {
+    #products {
+
+    }
+    .product-texts {
+        margin-right: 12rem;
     }
 }

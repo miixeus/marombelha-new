@@ -1,6 +1,5 @@
-
 #show-we {
-  background-image: url(../images/show-we-larg.png);
+  background-image: url(../images/show-we-larg-black1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -10,11 +9,10 @@
   margin-top: -40px;
   justify-content: center;
   z-index: 0;
-
 }
 .box-flex {
   margin-top: 401px;
-  background-color: #DEA47C;
+  background-color: #dea47c;
   width: 358px;
   height: 629px;
   flex-direction: column;
@@ -45,7 +43,7 @@
   .paragraf-third-page {
     width: 308px;
     height: 69px;
-    padding-top: 12px;  
+    padding-top: 12px;
     color: white;
     font-size: 22px;
     z-index: 3;
@@ -79,5 +77,4 @@
   transition: 0.5s;
 }
 @media (min-width: 520px) {
-
 }
