@@ -64,6 +64,11 @@
         transition: 0.5s;
       
     }
+    #pdfContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     .row-a {
       display: flex;
       flex-direction: column;

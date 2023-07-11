@@ -65,3 +65,12 @@ function alternarTexto() {
 }
 
 
+function togglePDF() {
+  var pdfContainer = document.getElementById("pdfContainer");
+  
+  if (pdfContainer.style.display === "none") {
+    pdfContainer.style.display = "flex";
+  } else {
+    pdfContainer.style.display = "none";
+  }
+}

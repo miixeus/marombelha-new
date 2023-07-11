@@ -92,7 +92,7 @@
             </picture>
             <div class="div-flex">
                 <h2 class="title-api" data-aos="fade-up">APITERAPIA</h2>
-                <a href="apiterapia.html" class="button-s"> Saiba mais </a>
+                <a href="apiterapia.html" class="button-s" target="_blank"> Saiba mais </a>
                 <p class="paragraf-second-page">Tratamento Rápido, Eficiente e com Resultados Incríveis.</p>
                 <a href="https://api.whatsapp.com/send?phone=5519988365263&text=Olá,%20estou%20interessado%20em%20saber%20mais%20informações%20sobre%20as%20terapias." target="_blank" class="button">
                     Converse Conosco
@@ -126,11 +126,17 @@
             <source srcset="assets/images/polygon-3.svg" media="(min-width: 414px)"/>
             <img src="assets/images/polygon-3.svg" alt="hexágono" width="281px" height="274px">
         </picture>
-        <div class="div-flex">
+        <div class="div-flex ">
             <h2 class="title-auric" data-aos="fade-up">AURICULOTERAPIA</h2>
             <p class="paragraf-third-page" data-aos="fade-down">Equipamentos de Última Geração.</p>
-            <a href="auriculoterapia.html" target="_blank" class="button-two">SAIBA MAIS  
+            <!--<a href="auriculoterapia.html" target="_blank" class="button-two">SAIBA MAIS  
             </a>
+            <iframe src="assets/pdf/auriculoterapia.pdf" width="80%" height="500px" frameborder="0"></iframe>-->
+            <button id="toggleBtn" onclick="togglePDF()" class="button-two">Saiba mais</button>
+
+            <div id="pdfContainer" style="display: none; width: 100%; justify-content: center;align-items: center;">
+            <iframe id="pdfViewer" src="assets/pdf/auriculoterapia.pdf" width="90%" height="500px" frameborder="0" style="display: flex; align-items: center; justify-content: center;"></iframe>
+            </div>
             <div class="row-a" data-aos="fade-up">
                 <div class="row-down" >
                     <picture class="img-arc">
