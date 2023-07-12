@@ -44,13 +44,14 @@
         transition: 0.5s;
     }
     .logo-footer {
-        margin-top: 200px;
+        margin-top: 170px;
     }
     .email {
         width: 357px;
         height: 37px;
         font-size: 18px;
         font-weight: 400;
+        margin: 2rem;
         align-items: center;
         justify-content: center;
         p {
@@ -58,15 +59,40 @@
         }
     }
     .adress {
+        flex-direction: column;
         width: 362px;
-        height: 52px;
+        height: 225px;
         font-size: 16px;
         font-weight: 300;
+        padding: .3rem;
         align-items: center;
         text-align: center;
-        p {
-            color: white;
+        h3 {
+            background-color: rgb(255, 255, 255);
+            border-radius: .3rem;
+            color: rgb(0, 0, 0);
+            margin-bottom: .7rem;
+            padding: .1rem .5rem;
+            box-shadow: 1px 4px 12px black;
         }
+        .adress-div {
+            flex-direction: column;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.178);
+            margin-bottom: 1.5rem;
+            p {
+                margin-bottom: .3rem;
+                color: white;
+                
+                span {
+                    font-size: 10px;
+                }
+            }
+        }
+
+    }
+    .adress p:hover {
+        color: #FDEF07;
+        transition: all 0.1s;
     }
     .copyright {
         width: 362px;
