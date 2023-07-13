@@ -3,6 +3,7 @@ body {
     align-items: center;
     display: flex;
     flex-direction: column;
+    
 }
 #apit {
     background-color: white;
@@ -46,6 +47,13 @@ body {
         padding-bottom: 1rem;
         .bold {
             font-weight: bold;
+        }
+    }
+    .enf {
+        margin-bottom: 2rem;
+        img {
+            border-radius: .2rem;
+            box-shadow: 1px 4px 12px black;
         }
     }
 }
