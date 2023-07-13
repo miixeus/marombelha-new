@@ -1,0 +1,12 @@
+#auric {
+    display: flex;
+    flex-direction: column;
+    .pictures {
+        flex-direction: column;
+        max-width: 100%;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

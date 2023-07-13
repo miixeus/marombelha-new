@@ -21,7 +21,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png"/>
     <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png"/>
     <meta name="msapplication-TileColor" content="#ffffff"/>
-    <meta name="theme-color" content="#272727"></meta>
+    <meta name="theme-color" content="#f85d5d"></meta>
     <title>AURICULOTERAPIA</title>
 </head>
 <body>
@@ -34,17 +34,78 @@
             <span id="hamburger"></span>
           </button>
           <ul id="menu" role="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#background-two">Apiterapia</a></li>
-            <li><a href="#background-three">Auriculoterapia</a></li>
-            <li><a href="#depositions">Depoimentos</a></li>
-            <li><a href="#footer">Contato</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#background-two">Apiterapia</a></li>
+            <li><a href="index.html#background-three">Auriculoterapia</a></li>
+            <li><a href="index.html#depositions">Depoimentos</a></li>
+            <li><a href="index.html#footer">Contato</a></li>
           </ul>
         </nav>    
     </header>
+
+        
+    
+    <!--Whatsapp-button-->
     <section>
-        <embed src="assets/pdf/auriculoterapia.pdf" width="1200" height="600" >
+        <div class="whatsapp">
+            <a href="https://api.whatsapp.com/send?phone=5519988365263&text=Olá,%20estou%20interessado%20em%20saber%20mais%20informações%20sobre%20as%20terapias."
+            target="_blank"
+            style="position:fixed;bottom:8px;right:12px;"><img src="assets/images/whatsapp.png" alt="botão whatsapp" width="40px" height="40px"/>
+            </a>
+            
+          </div>
     </section>
+
+   
+    <section id="auric">
+           <div class="pictures">
+            <picture>
+              <source media="(min-width: 768px)" srcset="assets/images/l.image1.png">
+              <source media="(min-width: 480px)" srcset="assets/images/a.image1.png">
+              <img src="assets/images/m.image1.png" alt="O que é auriculoterapia">
+            </picture>
+            <picture>
+              <source media="(min-width: 768px)" srcset="assets/images/l.image2.png">
+              <source media="(min-width: 480px)" srcset="assets/images/a.image2.png">
+              <img src="assets/images/m.image2.png" alt="O que é auriculoterapia">
+            </picture>
+            <picture>
+              <source media="(min-width: 768px)" srcset="assets/images/l.image3.png">
+              <source media="(min-width: 480px)" srcset="assets/images/a.image3.png">
+              <img src="assets/images/m.image3.png" alt="O que é auriculoterapia">
+            </picture>
+            <picture>
+              <source media="(min-width: 768px)" srcset="assets/images/l.image4.png">
+              <source media="(min-width: 480px)" srcset="assets/images/a.image4.png">
+              <img src="assets/images/m.image4.png" alt="O que é auriculoterapia">
+            </picture>
+            <picture>
+              <source media="(min-width: 768px)" srcset="assets/images/l.image5.png">
+              <source media="(min-width: 480px)" srcset="assets/images/a.image5.png">
+              <img src="assets/images/m.image5.png" alt="O que é auriculoterapia">
+            </picture>
+            <picture>
+              <source media="(min-width: 768px)" srcset="assets/images/l.image6.png">
+              <source media="(min-width: 480px)" srcset="assets/images/a.image6.png">
+              <img src="assets/images/m.image6.png" alt="O que é auriculoterapia">
+            </picture>
+            
+           </div>
+                
+
+    </section>
+   
+
+
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
 
 </body>
 </html>

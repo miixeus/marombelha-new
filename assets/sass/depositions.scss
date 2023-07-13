@@ -2,10 +2,9 @@
     background-image: url(../images/depositions-background-larg-black.png);
     background-size: cover;
     background-position: center;
-    height: 800px;
+    height: 1080px;
     width: 100%;
     flex-direction: column;
-    border-top: 1px solid white;
     .bee-line {
         justify-content: center;
         margin-top: -70px;
@@ -36,7 +35,7 @@
         display: flex;
         width: 282px;
         height: 60px;
-        padding: 2px;
+        padding: 12px;
         margin: 20px;
         background-image: linear-gradient(180deg, #00e574, #5eff2e);
         color: white;
