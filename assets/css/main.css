@@ -1012,6 +1012,7 @@ button {
   align-items: center;
   margin-top: 1rem;
   flex-direction: column;
+  max-width: 100%;
 }
 #background-three .div-flex .row .row-up {
   flex-direction: column;
@@ -1030,12 +1031,14 @@ button {
   margin: 0.5rem 0.1rem;
   color: #ffffff;
   width: 100%;
+  max-width: 100%;
 }
 #background-three .div-flex .row .row-up .content-ilib h3 {
   max-width: 100%;
   font-size: 16px;
 }
 #background-three .div-flex .row .row-up .content-ilib .content {
+  max-width: 100%;
   width: 360px;
   height: auto;
   padding: 40px 5px;
@@ -1051,12 +1054,14 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 100%;
 }
 #background-three .div-flex .row .row-up-two .img-api-two {
   margin: 60px 0px;
   position: relative;
   z-index: 2;
   transition: 0.3s;
+  max-width: 100%;
 }
 #background-three .div-flex .row .row-up-two .img-api-two:hover {
   transform: scale(1.1);
@@ -1065,13 +1070,14 @@ button {
 #background-three .div-flex .row .row-up-two .content-ilib {
   flex-direction: column;
   text-align: center;
+  max-width: 100%;
 }
 #background-three .div-flex .row .row-up-two .content-ilib h3 {
   color: #ffffff;
   margin: 0.5rem 0;
 }
 #background-three .div-flex .row .row-up-two .content-ilib .content {
-  width: 360px;
+  max-width: 100%;
   height: auto;
   flex-direction: column;
   display: flex;
@@ -1180,6 +1186,7 @@ button {
     text-transform: uppercase;
   }
   #background-three .div-flex .row .row-up .content-ilib .content {
+    max-width: 100%;
     display: flex;
     width: 400px;
     height: 188px;
@@ -1195,17 +1202,20 @@ button {
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
+    max-width: 100%;
   }
   #background-three .div-flex .row .row-up-two .img-api-two {
     position: relative;
     z-index: 2;
     transition: 0.3s;
+    max-width: 100%;
   }
   #background-three .div-flex .row .row-up-two .img-api-two:hover {
     transform: scale(1.1);
     transition: 0.5s;
   }
   #background-three .div-flex .row .row-up-two .content-ilib {
+    max-width: 100%;
     color: #ffffff;
     flex-direction: column;
     align-items: center;
@@ -1243,7 +1253,7 @@ button {
 .box-flex {
   margin-top: 401px;
   background-color: #dea47c;
-  width: 60vh;
+  width: 360px;
   height: 629px;
   flex-direction: column;
   align-items: center;
@@ -1255,13 +1265,10 @@ button {
 }
 .box-flex .show-video {
   background-color: #303030;
-  width: 60vh;
+  width: 100%;
   height: 419px;
   position: relative;
   justify-content: center;
-}
-.box-flex .show-video video {
-  width: 60vh;
 }
 .box-flex .show-video .title-auric {
   width: 100%;

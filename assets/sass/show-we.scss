@@ -13,7 +13,7 @@
 .box-flex {
   margin-top: 401px;
   background-color: #dea47c;
-  width: 60vh;
+  width: 360px;
   height: 629px;
   flex-direction: column;
   align-items: center;
@@ -24,12 +24,11 @@
   box-shadow: 0px 8px 14px black;
   .show-video {
     background-color: #303030;
-    width: 60vh;
+    width: 100%;
     height: 419px;
     position: relative;
     justify-content: center;
     video {
-      width: 60vh;
     }
     .title-auric {
       width: 100%;
