@@ -1,5 +1,5 @@
 #footer {
-    background-image: url(../images/footer-larg.png);
+    background-image: url(../images/img-footer-mobile.png);
     background-size: cover;
     height: 978px;
     width: 100%;
@@ -107,6 +107,7 @@
 }
 @media (min-width: 820px) {
     #footer {
+        background-image: url(../images/footer-larg.png);
         .title-footer {
             margin-top: 50px;
             color: white;

@@ -333,7 +333,7 @@ button {
   }
 }
 #background-presantation {
-  background-image: linear-gradient(45deg, rgb(0, 0, 0), rgb(20, 20, 20));
+  background-color: #000000;
   width: 100%;
   height: 556px;
   position: relative;
@@ -515,7 +515,7 @@ button {
   }
 }
 #background-two {
-  background-image: linear-gradient(45deg, #272726, #1d1c19);
+  background-color: #000000;
   width: 100%;
   height: 1824px;
   position: relative;
@@ -566,7 +566,7 @@ button {
 }
 #background-two .box .div-flex .button {
   display: flex;
-  top: 1451px;
+  top: 1495px;
   width: 205px;
   height: 40px;
   padding: 20px 5px;
@@ -943,7 +943,7 @@ button {
   background-image: linear-gradient(to top, #CF9393, #000000);
   box-shadow: 10px 10px 50px #000000;
   width: 100%;
-  height: 1400px;
+  height: 150rem;
   position: relative;
   box-shadow: 1px 8px 12px black;
 }
@@ -972,6 +972,7 @@ button {
   color: #CF9393;
   font-size: 44px;
   font-weight: bold;
+  text-transform: uppercase;
   text-shadow: 1px 9px 13px rgba(0, 0, 0, 0.808);
   transition: 1s;
 }
@@ -1005,61 +1006,100 @@ button {
   transform: scale(1.1);
   transition: 0.5s;
 }
-#background-three .div-flex .row-a {
+#background-three .div-flex .row {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin-top: 1rem;
+  flex-direction: column;
+}
+#background-three .div-flex .row .row-up {
+  flex-direction: column;
+}
+#background-three .div-flex .row .row-up .img-api {
+  margin: 40px 0px;
+  position: relative;
+  transition: 0.3s;
+}
+#background-three .div-flex .row .row-up .img-api:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+#background-three .div-flex .row .row-up .content-ilib {
+  flex-direction: column;
+  margin: 0.5rem 0.1rem;
+  color: #ffffff;
   width: 100%;
 }
-#background-three .div-flex .row-a .row-down {
-  flex-direction: column;
+#background-three .div-flex .row .row-up .content-ilib h3 {
+  max-width: 100%;
+  font-size: 16px;
 }
-#background-three .div-flex .row-a .row-down .img-arc {
-  width: 380px;
-  margin: 40px 0px;
-  transition: 0.5s;
-}
-#background-three .div-flex .row-a .row-down .img-arc:hover {
-  transform: scale(1.1);
-  transition: 0.5s;
-}
-#background-three .div-flex .row-a .row-down .content {
+#background-three .div-flex .row .row-up .content-ilib .content {
   width: 360px;
   height: auto;
-  padding: 10px;
-  font-size: 18px;
+  padding: 40px 5px;
+  font-size: 16px;
   color: #ffffff;
   justify-content: center;
+  margin: 2rem 0.3rem;
   text-align: center;
   align-items: center;
   border-left: 2px dashed #ffffff;
 }
-#background-three .div-flex .row-a .row-down-two {
+#background-three .div-flex .row .row-up-two {
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-#background-three .div-flex .row-a .row-down-two .img-arc-two {
-  margin: 40px 0px;
-  transition: 0.5s;
+#background-three .div-flex .row .row-up-two .img-api-two {
+  margin: 60px 0px;
+  position: relative;
+  z-index: 2;
+  transition: 0.3s;
 }
-#background-three .div-flex .row-a .row-down-two .img-arc-two:hover {
+#background-three .div-flex .row .row-up-two .img-api-two:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
-#background-three .div-flex .row-a .row-down-two .content {
+#background-three .div-flex .row .row-up-two .content-ilib {
+  flex-direction: column;
+  text-align: center;
+}
+#background-three .div-flex .row .row-up-two .content-ilib h3 {
+  color: #ffffff;
+  margin: 0.5rem 0;
+}
+#background-three .div-flex .row .row-up-two .content-ilib .content {
   width: 360px;
   height: auto;
-  padding: 10px;
-  font-size: 18px;
+  flex-direction: column;
+  display: flex;
   color: #ffffff;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  font-size: 14px;
+  padding: 40px 5px;
+  margin: 2rem;
   border-left: 2px dashed #ffffff;
+  align-items: center;
+  text-align: center;
 }
 
+@media (min-width: 520px) {
+  #background-three {
+    height: 152rem;
+  }
+  #background-three .div-flex .row .row-up .img-api {
+    margin: 40px 0 0 0;
+    position: relative;
+    transition: 0.3s;
+  }
+  #background-three .div-flex .row .row-up-two .content-ilib .content {
+    font-size: 16px;
+  }
+}
 @media (min-width: 820px) {
   #background-three {
-    height: 1038px;
+    height: 120rem;
   }
   #background-three .polygon-two {
     width: 200px;
@@ -1074,7 +1114,7 @@ button {
     height: 560px;
   }
   #background-three .div-flex .title-auric {
-    width: 100%;
+    width: 50%;
     text-align: center;
     margin-top: 20px;
     padding: 4px;
@@ -1104,62 +1144,87 @@ button {
     justify-content: center;
     border-radius: 6px;
   }
-  #background-three .div-flex .row-a {
+  #background-three .div-flex .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    flex-direction: column;
     width: 100%;
-    justify-content: space-evenly;
+  }
+  #background-three .div-flex .row .row-up {
     flex-direction: row;
-    display: flex;
-  }
-  #background-three .div-flex .row-a .row-a {
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 100%;
   }
-  #background-three .div-flex .row-a .row-a .row-down {
-    flex-direction: column;
-  }
-  #background-three .div-flex .row-a .row-a .row-down .img-arc {
-    width: 380px;
+  #background-three .div-flex .row .row-up .img-api {
+    align-items: center;
     margin: 40px 0px;
-    transition: 0.5s;
+    position: relative;
+    transition: 0.3s;
+    width: 400px;
+    height: 420px;
+    z-index: 4;
   }
-  #background-three .div-flex .row-a .row-a .row-down .img-arc:hover {
+  #background-three .div-flex .row .row-up .img-api:hover {
     transform: scale(1.1);
     transition: 0.5s;
   }
-  #background-three .div-flex .row-a .row-a .row-down .content {
-    width: 360px;
-    height: auto;
+  #background-three .div-flex .row .row-up .content-ilib {
+    color: #ffffff;
+    flex-direction: column;
+    align-items: center;
+  }
+  #background-three .div-flex .row .row-up .content-ilib h3 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  #background-three .div-flex .row .row-up .content-ilib .content {
+    display: flex;
+    width: 400px;
+    height: 188px;
     padding: 10px;
     font-size: 18px;
     color: #ffffff;
     justify-content: center;
-    text-align: center;
+    text-align: inherit;
     align-items: center;
-    border-left: 2px dashed #ffffff;
+    border: none;
   }
-  #background-three .div-flex .row-a .row-a .row-down-two {
-    flex-direction: column;
+  #background-three .div-flex .row .row-up-two {
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
   }
-  #background-three .div-flex .row-a .row-a .row-down-two .img-arc-two {
-    margin: 40px 0px;
-    transition: 0.5s;
+  #background-three .div-flex .row .row-up-two .img-api-two {
+    position: relative;
+    z-index: 2;
+    transition: 0.3s;
   }
-  #background-three .div-flex .row-a .row-a .row-down-two .img-arc-two:hover {
+  #background-three .div-flex .row .row-up-two .img-api-two:hover {
     transform: scale(1.1);
     transition: 0.5s;
   }
-  #background-three .div-flex .row-a .row-a .row-down-two .content {
-    width: 360px;
-    height: auto;
-    padding: 10px;
-    font-size: 18px;
+  #background-three .div-flex .row .row-up-two .content-ilib {
     color: #ffffff;
-    justify-content: center;
-    text-align: center;
+    flex-direction: column;
     align-items: center;
-    border-left: 2px dashed #ffffff;
+    margin-right: 2.2rem;
+  }
+  #background-three .div-flex .row .row-up-two .content-ilib h3 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+  #background-three .div-flex .row .row-up-two .content-ilib .content {
+    width: 400px;
+    height: 188px;
+    flex-direction: column;
+    display: flex;
+    color: #ffffff;
+    font-size: 16px;
+    border: none;
+    align-items: center;
+    text-align: center;
   }
 }
 #show-we {
@@ -1178,7 +1243,7 @@ button {
 .box-flex {
   margin-top: 401px;
   background-color: #dea47c;
-  width: 358px;
+  width: 60vh;
   height: 629px;
   flex-direction: column;
   align-items: center;
@@ -1190,10 +1255,13 @@ button {
 }
 .box-flex .show-video {
   background-color: #303030;
-  width: 358px;
+  width: 60vh;
   height: 419px;
   position: relative;
   justify-content: center;
+}
+.box-flex .show-video video {
+  width: 60vh;
 }
 .box-flex .show-video .title-auric {
   width: 100%;
@@ -1331,6 +1399,17 @@ button {
   align-items: center;
   justify-content: space-between;
 }
+#depositions .flex-depositions .video-vd {
+  border-radius: 1rem;
+  padding: 1rem;
+  background: rgb(227, 227, 227);
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+#depositions .flex-depositions .video-vd video {
+  width: 320px;
+  height: auto;
+}
 #depositions .button-two {
   display: flex;
   width: 282px;
@@ -1353,8 +1432,58 @@ button {
   transition: 0.5s;
 }
 
+@media (min-width: 480px) {
+  #depositions {
+    height: 80rem;
+  }
+  #depositions .flex-depositions {
+    width: 100%;
+  }
+  #depositions .flex-depositions .video-vd {
+    width: 60vh;
+    height: auto;
+    justify-content: center;
+  }
+  #depositions .flex-depositions .video-vd video {
+    width: 98%;
+    height: auto;
+  }
+}
+@media (min-width: 578px) {
+  #depositions {
+    height: 80rem;
+  }
+  #depositions .flex-depositions {
+    width: 100%;
+  }
+  #depositions .flex-depositions .video-vd {
+    width: 59vh;
+    height: auto;
+    justify-content: center;
+  }
+  #depositions .flex-depositions .video-vd video {
+    width: 98%;
+    height: auto;
+  }
+}
+@media (min-width: 820px) {
+  #depositions {
+    height: 80rem;
+  }
+  #depositions .flex-depositions {
+    width: 100%;
+  }
+  #depositions .flex-depositions .video-vd {
+    width: 59vh;
+    height: auto;
+  }
+  #depositions .flex-depositions .video-vd video {
+    width: 98%;
+    height: auto;
+  }
+}
 #footer {
-  background-image: url(../images/footer-larg.png);
+  background-image: url(../images/img-footer-mobile.png);
   background-size: cover;
   height: 978px;
   width: 100%;
@@ -1459,6 +1588,9 @@ button {
 }
 
 @media (min-width: 820px) {
+  #footer {
+    background-image: url(../images/footer-larg.png);
+  }
   #footer .title-footer {
     margin-top: 50px;
     color: white;
