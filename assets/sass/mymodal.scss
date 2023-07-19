@@ -6,7 +6,7 @@ body {
     
 }
 #apit {
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,6 +49,10 @@ body {
             font-weight: bold;
         }
     }
+    .alig {
+        width: 76%;
+        border: none;
+    }
     .enf {
         margin-bottom: 2rem;
         img {
@@ -56,6 +60,7 @@ body {
             box-shadow: 1px 4px 12px black;
         }
     }
+
 }
 
 
