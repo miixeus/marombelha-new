@@ -14,8 +14,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "Por favor, preencha todos os campos.";
     } else {
         // Validar o número de telefone
-        if (!preg_match("/^[0-9]{10}$/", $telefone)) {
-            echo "Por favor, insira um número de telefone válido (10 dígitos).";
+        if (!preg_match("/^[0-9]{11}$/", $telefone)) {
+            echo "Por favor, insira um número de telefone válido (11 dígitos).";
         } else {
             // Processa os dados
             echo "Nome: $nome<br>";

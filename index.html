@@ -259,7 +259,7 @@
     <section id="form-body">
         <div id="form">
         <h3>Preencha nosso Formulário</h3>
-        <form action="processar-formulario.php" method="post">
+        <form action="form.php" method="post">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" placeholder="Nome completo"  required>
         
@@ -267,7 +267,7 @@
             <input type="email" id="email" name="email" placeholder="exemplo@exemplo.com"  required>
 
             <label for="telefone">Telefone:</label>
-    <input type="tel" id="telefone" name="telefone" pattern="[0-9]{10}" placeholder="Digite apenas números, sem espaços ou caracteres especiais" required>
+    <input type="tel" id="telefone" name="telefone" pattern="[0-9]{11}" placeholder="Digite apenas números, sem espaços ou caracteres especiais" required>
         
             <label for="mensagem">Mensagem:</label>
             <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite aqui sua mensagem"  required></textarea>
