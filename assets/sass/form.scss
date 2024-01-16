@@ -2,7 +2,7 @@
 #form-body {
     width: 100%;
     flex-direction: column;
-    background-image: url(../images/17368.jpg);
+    background-image: url(../images/17368.png);
     background-repeat: repeat;
     background-size: contain;
     #form {
@@ -34,6 +34,7 @@
         }
 
         label {
+            color: rgb(222, 222, 222);
             display: flex;
             text-align: center;
             align-items: center;
