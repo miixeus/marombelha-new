@@ -256,6 +256,27 @@
             <a href="https://api.whatsapp.com/send?phone=5519988365263&text=Olá,%20estou%20interessado%20em%20saber%20mais%20informações%20sobre%20as%20terapias." target="_blank" class="button-two">Fale Conosco</a>
         </div>
     </section>
+    <section id="form-body">
+        <div id="form">
+        <h3>Preencha nosso Formulário</h3>
+        <form action="processar-formulario.php" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Nome completo"  required>
+        
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="exemplo@exemplo.com"  required>
+
+            <label for="telefone">Telefone:</label>
+    <input type="tel" id="telefone" name="telefone" pattern="[0-9]{10}" placeholder="Digite apenas números, sem espaços ou caracteres especiais" required>
+        
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite aqui sua mensagem"  required></textarea>
+        
+            <button type="submit">Enviar</button>
+            <div id="credits"><a href="https://br.freepik.com/vetores-gratis/vetor-abstrato-tecnologia-hexagono_6051824.htm#query=bee&position=22&from_view=search&track=sph&uuid=2267da90-ef07-4333-8082-869d16247258">Background img by Harryarts</a> from Freepik </div>
+        </form>
+    </div>
+    </section>
     <footer id="footer">
         <h4 class="title-footer">Siga nossas redes sociais</h4>
         <div class="links" data-aos="fade-up">
